@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="" id="registro"></form>
+    <!--Los input siempre deben ir dentro de un form-->
+    <div>
+        <label for="nombrecito">Nombre:</label>
+        <input type="text" placeholder="Nombre Completo" id="nombrecito" name="nombrecito">
+        <!--placeholder sirve para colocar un ejemplo de lo que el usuario debe hacer-->
+    </div>
+    <br>
+    <div>
+        <label for="correo">Email</label>
+        <input type="email" placeholder="Correo" id="correo" name="correo" reqired>
+        <!--Siempre colocar en los imput id, name-->
+
+    </div>
+    <br>
+    <div>
+        <label for="web">Tu sitio web</label>
+        <!--si agrego input#web se agrega automaticamente todo lo inicial-->
+        <input type="url" placeholder="www.misitio.com" id="web" name="web">
+    </div>
+    <br>
+    <div>
+        <label for="celular">Tu número celular</label>
+        <input type="number" placeholder="3## ### ## ##" id="celular" name="celular">
+
+    </div>
+    <br>
+    <div>
+        <label for="cv">Tu hoja de vida</label>
+        <input type="file" id="cv" name="cv">
+    </div>
+    <br>
+    <div>
+        <label for="pass">Contraseña</label>
+        <input type="password" id="pass" name="pass">
+
+    </div>
+    <br>
+    <div>
+        <label for="exp">Tienes experiencia programando</label>
+        <input type="radio" id="expY" name="exp" value="yes">
+        <label for="expY"> Si</label>
+
+        <input type="radio" name="exp" id="expN" value="No">
+        <label for="expN">No</label>
+    </div>
+    <br>
+    <div>
+        <label for="terms">Acepto terminos y condiciones</label>
+        <input type="checkbox" value="true" required id="terms"> <!--El "required" sirve para obligar al usuario a colocar o responder la información-->
+
+    </div>
+    <br>
+    <div>
+        <label for="pais">De donde eres</label>
+        <select name="pais" id="pais">
+            <option value="ARG">Argentina</option>
+            <option value="COL">Colombia</option>
+            <option value="PER">Perú</option>
+        </select>
+    </div>
+    <br>
+
+    <div>
+        <label for="comentario">Dejanos un comentario</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+    </div>
+
+    <br>
+    <div>
+        <label for="dp">Descripción personal</label>
+        <textarea name="dp" id="dp" cols="300" rows="300"></textarea>
+    </div>
+
+    <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar datos</button>
+    </div>
+
+</body>
+
+</html>

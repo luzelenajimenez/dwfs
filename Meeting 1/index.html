@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primer código</title>
+  <style>
+    body {
+      background-color: blueviolet;
+    }
+
+    h1 {
+      color: white;
+    }
+
+    h6 {
+      margin-left: 50px;
+    }
+
+    p {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="nombre">Luz Elena Jiménez Urrego</h1>
+  <h6 id="FechaDeNacimiento">26 de agosto de 1997</h6>
+  <p id="descripcion">Vivo en la ciudad de Medellín. Soy entrenadora deportiva y estudiante de último semestre de
+    Ingeniería Biomédica.</p>
+
+  <script>
+    nombre = document.getElementById("nombre");
+    descripcion = document.getElementById("descripcion");
+
+    nombre.addEventListener("click", function () {
+      alert("Bienvenidos a mi sitio web");
+    });
+
+    descripcion.addEventListener("mouseenter", function () {
+      descripcion.style.color = "black";
+      descripcion.style.backgroundColor = "white";
+    });
+
+    descripcion.addEventListener("mouseleave", function () {
+      descripcion.style.color = "white";
+      descripcion.style.backgroundColor = "black";
+
+
+      //*** <script src="JS.prueba" ><script/> /**** Forma de crear JS en otro archivo como con CSS y agregarlo al HTML
+
+    });
+  </script>
+</body>
+
+</html>

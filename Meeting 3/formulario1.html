@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inscripción</title>
+</head>
+
+<body>
+    <!--Inicio del cuerpo del HTML-->
+    <form action="resultados.html"><br>
+        <div>
+
+            <h1>FORMULARIO DE INSCRIPCIÓN</h1>
+            <!--Inicio del formulario-->
+
+            <h3>Ingresa los datos solicitados acontinuación</h3>
+            <!--Código para ingresar el nombre--> <br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí" required><br>
+            <!--Código para ingresar el apellido--> <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido aquí" required><br>
+            <!--Código para ingresar el email--> <br>
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="correo@eléctronico.com" required><br>
+
+        </div> <br>
+
+        <div>
+            <!--Código para seleccionar el país-->
+
+            <label for="pais"> ¿Cuál es tu país de procedencia?</label>
+            <select name="pais" id="pais" required>
+                <option value="">Seleccione una opción</option>
+                <option value="AR">Argentina</option>
+                <option value="BR">Brasil</option>
+                <option value="CO">Colombia</option>
+                <option value="PE">Perú</option>
+                <option value="UR">Uruguay</option>
+            </select>
+        </div> <br>
+
+        <div>
+            <!--Código para hacer una lista de única opción tipo radio para la carrera-->
+            <label for="carrera">¿A qué carrera deseas inscibirte?</label> <br>
+            <label for="uxui"></label>
+            <input type="radio" id="uxui" name="carrera" value="ux/ui" required> UX/UI <br>
+            <label for="ds"></label>
+            <input type="radio" id="ds" name="carrera" value="datascience" required> Data Science <br>
+            <label for="dwfs"></label>
+            <input type="radio" id="dwfs" name="carrera" value="desarrollowebfullstack" required> Desarrollo Web Full
+            Stack
+            <br>
+            <label for="fa"></label>
+            <input type="radio" id="fa" name="carrera" value="frontendacanzado" required> FrontEnd Avanzado <br>
+
+
+        </div> <br>
+
+        <div>
+            <!--Código para hacer una lista de única opción tipo radio para la modalidad-->
+            <label for="modalidad"> Modalidad </label><br>
+            <label for="pre"></label>
+            <input type="radio" id="pre" name="modalidad" value="presencial" required> Presencial <br>
+            <label for="onl"></label>
+            <input type="radio" id="onl" name="modalidad" value="online" required> Online <br>
+
+        </div> <br>
+
+        <div>
+            <!--Código para crear una lista de única opción para trabajo-->
+            <label for="tbj"> ¿Estás trabajando actualmente? </label> <br>
+            <input type="radio" id="tbjY" name="tbj" value="yes">
+            <label for="tbjY">Si</label> <br>
+            <input type="radio" name="tbj" id="tbjN" value="not">
+            <label for="tbjN">No</label>
+
+        </div> <br>
+
+        <div>
+            <!--Código para agregar un numero de teléfono con formato de 10 digitos-->
+            <label for="tel">Teléfono de contacto:</label>
+            <input type="tel" min="0" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" title="Debe ser en este formato 333 333 3333"
+                name="tel" id="tel" placeholder="3## ### ###">
+        </div> <br>
+
+        <div>
+            <!--Código para agregar una pequeña descripción-->
+            <label for="descripción">Descripción personal</label> <br>
+            <textarea name="descripción" id="descripción" maxlength="300" cols="50" rows="10"
+                placeholder="Máximo 300 caracteres"></textarea>
+        </div> <br>
+
+        <!--Botones para enviar y resetear la información-->
+        <button type="submit">Enviar</button>
+        <button type="reset"> Resetear formulario</button>
+
+
+        <p> © 2021</p>
+    </form>
+
+</body>
+
+</html>

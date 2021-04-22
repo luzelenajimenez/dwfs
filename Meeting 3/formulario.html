@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<!--Inicio del cuerpo del HTML-->
+
+<body>
+
+    <h1>FORMULARIO DE INSCRIPCIÓN</h1>
+    <!--Titulo principal-->
+    <section>
+        <h3>Ingresa los datos  solicitadosacontinuación</h3>
+        <!--Inicio del formulario-->
+        <form action="resultados.html">
+            <div>
+                <!--Código para agregar el nombre-->
+                <label for="nombre"> Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Ejemplo: Luis - Luisa">
+            </div> <br>
+
+            <div>
+                <!--Código para agregar el apellido-->
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required placeholder="Ejemplo: Álvarez">
+
+            </div> <br>
+
+            <div>
+                <!--Código para agregar el email-->
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" name="correo" required placeholder="correo@electronico.com">
+            </div> <br>
+
+
+            <div>
+                <!--Código desplegable para seleccionar el país-->
+                <label for="pais"> ¿De dónde eres?</label>
+                <select name="pais" id="pais" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="AR">Argentina</option>
+                    <option value="BR">Brasil</option>
+                    <option value="CO">Colombia</option>
+                    <option value="PE">Perú</option>
+                    <option value="VE">Venezuela</option>
+                </select>
+            </div> <br>
+
+            <div>
+                <!--Código para hacer una lista de única opción-->
+                
+                <label for="carrera">¿A qué carrera deseas inscibirte?</label> <br>
+
+                <label for="uxui"></label>
+                <input type="radio" id="uxui" name="carrera" value="ux/ui"> UX/UI <br>
+
+                <label for="ds"></label>
+                <input type="radio" id="ds" name="carrera" value="datascience"> Data Science <br>
+
+                <label for="dwfs"></label>
+                <input type="radio" id="dwfs" name="carrera" value="desarrollowebfullstack"> Desarrollo Web Full Stack
+                <br>
+
+                <label for="fa"></label>
+                <input type="radio" id="fa" name="carrera" value="frontendacanzado"> FrontEnd Avanzado <br>
+
+            </div> <br>
+
+            <div>
+                <label for="modalidad"> Modalidad </label><br>
+                
+                <label for="pre"></label>
+                <input type="radio" id="pre" name="modalidad" value="presencial"> Presencial
+                
+                <label for="onl"></label>
+                <input type="radio" id="onl" name="modalidad" value="online" > Online
+                
+            </div>
+            <br>
+            <div>
+                <label for="tra">¿Estas trabajando actualmente?</label>
+                <input type="radio" id="traY" name="tra" value="yes">
+                <label for="traY"> Si</label>
+
+                <input type="radio" name="tra" id="traN" value="No">
+                <label for="traN">No</label>
+            </div>
+            <br>
+            <div>
+                <label for="tel">Telefono de contacto</label>
+                <input type="tel" placeholder="3## ### ## ##" id="tel" name="tel">
+
+            </div>
+            <br>
+
+            <div>
+                <label for="dp">Descripción personal</label>
+                <textarea name="dp" id="dp" cols="300" rows="20"></textarea>
+            </div>
+            <br>
+
+
+
+            <button type="submit">Enviar</button>
+            <button type="reset"> Borrar datos</button>
+        </form>
+    </section>
+    ​
+    ​
+
+    <p> © 2021</p>
+</body>
+
+</html>

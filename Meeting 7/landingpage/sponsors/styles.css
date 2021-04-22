@@ -1,0 +1,167 @@
+main {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  height: 800px;
+  top: 500px;
+  border: 2px solid gray;
+}
+
+main h1 {
+  display: inline-block;
+  position: absolute;
+  font-family: "arial", "time new roman", "sans-serif";
+  font-size: 40px;
+  color: #0a4b4e;
+  left: 25%;
+}
+
+p {
+  display: inline-block;
+  position: absolute;
+  font-family: "arial", "time new roman", "sans-serif";
+  text-align: justify;
+  font-size: 20px;
+  padding-right: 50px;
+  padding-top: 70px;
+  top: 0px;
+  margin-top: 30px;
+}
+
+.platinum, .gold, .silver {
+  display: inline-block;
+  position: relative;
+  font-family: "arial", "time new roman", "sans-serif";
+  color: #0a4b4e;
+  top: 200px;
+}
+
+.platinum .caja1, .platinum .caja2, .platinum .caja3, .gold .caja1, .gold .caja2, .gold .caja3, .silver .caja1, .silver .caja2, .silver .caja3 {
+  display: inline-block;
+  position: relative;
+  background-color: #c6eef5;
+  border: 2px solid gray;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  margin: 10px;
+}
+
+.formulario {
+  display: inline-block;
+  position: absolute;
+  height: 500px;
+  width: 400px;
+  border: 2px solid gray;
+  left: 100%;
+  top: 0;
+  margin-left: 40px;
+}
+
+h2 {
+  margin-left: 80px;
+}
+
+form {
+  padding: 15px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+button {
+  display: inline-block;
+  position: absolute;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 15px;
+  left: 300px;
+  top: 400px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c6eef5;
+  color: #0a4b4e;
+  border: 2px dotted #0a4b4e;
+}
+
+header {
+  position: relative;
+}
+
+header .imagenppal {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 450px;
+}
+
+.secciones {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 41px;
+  background-color: #c6eef5;
+  border: 2px solid gray;
+  top: 450px;
+}
+
+.secciones a {
+  display: inline-block;
+  line-height: 40px;
+  font-family: "arial", "time new roman", "sans-serif";
+  font-size: 25px;
+  text-decoration: none;
+  color: #0a4b4e;
+  font-weight: bold;
+}
+
+.secciones a:hover {
+  color: gray;
+}
+
+.home, .oradores, .comollegar, .sponsors {
+  display: inline-block;
+  line-height: 30px;
+  left: auto;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #d4cdcd;
+}
+
+footer {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  border: 2px solid gray;
+  margin-top: 30px;
+  top: 500px;
+  height: 50px;
+}
+
+footer p {
+  position: relative;
+  font-family: "arial", "time new roman", "sans-serif";
+  font-size: 20px;
+  font-weight: bold;
+  color: #0a4b4e;
+}
+/*# sourceMappingURL=styles.css.map */

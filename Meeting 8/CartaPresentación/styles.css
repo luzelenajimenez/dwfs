@@ -1,0 +1,460 @@
+.contacto {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  margin-top: 40px;
+}
+
+.contacto h2 {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.nombre, .email, .tel, .men {
+  position: relative;
+  padding: 5px;
+  left: 25%;
+  top: 20px;
+  background-color: #d5d5d4;
+  color: black;
+  font-weight: bold;
+}
+
+.boton {
+  position: relative;
+  padding: 5px;
+  top: 70px;
+  right: 5%;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #2e2b2b;
+  color: white;
+  padding: 6px;
+}
+
+.descripcion {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  margin-top: 40px;
+}
+
+.descripcion .foto {
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  margin: 0 auto;
+  top: 25px;
+  left: 50px;
+}
+
+.descripcion h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: right;
+  color: white;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+.descripcion p {
+  display: inline-block;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: justify;
+  color: #8c8c8c;
+  width: 900px;
+  right: 50px;
+}
+
+.proyectos {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  margin-top: 40px;
+}
+
+.proyectos h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.proyectos .profoto {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  right: 50px;
+  top: 0;
+}
+
+.p1, .p2 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  left: 50px;
+  list-style: none;
+  left: 50px;
+  margin: 10px;
+}
+
+.p1 a, .p2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.p1 a:hover, .p2 a:hover {
+  color: #8c8c8c;
+}
+
+.educacion {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin-top: 40px;
+  background-color: black;
+}
+
+.educacion h2 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  top: 20px;
+  font-size: 50px;
+}
+
+.educacion h3 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  top: 200px;
+}
+
+.educacion h4 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  top: 400px;
+}
+
+.itm {
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 550px;
+  height: 100px;
+  border-radius: 10px;
+  left: 100px;
+}
+
+.itm .itmfoto {
+  width: 200px;
+  height: 90px;
+}
+
+.itm .pitm {
+  display: inline-block;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  top: 20px;
+  color: #043464;
+  left: 250px;
+  width: 100px;
+}
+
+.sena {
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 550px;
+  height: 100px;
+  border-radius: 10px;
+  left: 700px;
+}
+
+.sena .senafoto {
+  width: 100px;
+  height: 100px;
+}
+
+.sena .psena {
+  display: inline-block;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  top: 20px;
+  color: #ff6b08;
+  left: 150px;
+  width: 400px;
+}
+
+.udemy {
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 550px;
+  height: 100px;
+  border-radius: 10px;
+  left: 100px;
+  top: 350px;
+}
+
+.udemy .udemyfoto {
+  width: 100px;
+  height: 100px;
+}
+
+.udemy .pudemy {
+  display: inline-block;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ca3434;
+  left: 130px;
+  width: 450px;
+}
+
+.inde {
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 550px;
+  height: 100px;
+  border-radius: 10px;
+  left: 700px;
+  top: 350px;
+}
+
+.inde .indefoto {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 10px;
+}
+
+.inde .pinde {
+  display: inline-block;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  top: 20px;
+  color: #117e1f;
+  left: 150px;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.otros {
+  display: block;
+  position: absolute;
+  width: 900px;
+  height: 150px;
+  border-radius: 10px;
+  top: 600px;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 200px;
+}
+
+.otros .htmlfoto {
+  position: absolute;
+  width: 120px;
+  height: 110px;
+  left: 100px;
+  top: 20px;
+}
+
+.otros .cssfoto {
+  position: absolute;
+  width: 120px;
+  height: 110px;
+  left: 300px;
+  top: 20px;
+}
+
+.otros .matlabfoto {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  left: 500px;
+  top: 20px;
+}
+
+.otros .pythonfoto {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  left: 700px;
+  top: 20px;
+}
+
+header {
+  display: inline-block;
+  position: relative;
+  background-image: url(./5.png);
+  height: 366px;
+  top: 0px;
+  width: 100%;
+}
+
+header h1 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: white;
+  top: 150px;
+  right: 32%;
+  width: 300px;
+  margin-top: 20px;
+}
+
+header h2 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #808689;
+  top: 150px;
+  right: 25%;
+  width: 500px;
+  margin-top: 10px;
+}
+
+.secciones {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 41px;
+  background-color: #363333;
+  top: 0px;
+}
+
+.secciones a {
+  display: inline-block;
+  line-height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  top: 0;
+}
+
+.secciones a:hover {
+  color: gray;
+}
+
+.des, .edu, .pro, .con {
+  display: inline-block;
+  line-height: 30px;
+  left: auto;
+  padding-left: 130px;
+}
+
+.redes {
+  display: block;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.redes p {
+  display: inline-block;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  width: 500px;
+  right: 30%;
+  margin-top: 20px;
+}
+
+.redes .linkedin {
+  display: block;
+  position: absolute;
+  width: 90px;
+  height: 50px;
+  border-radius: 10px;
+  left: 500px;
+  margin-top: 100px;
+}
+
+.redes .instagram {
+  display: block;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  left: 650px;
+  margin-top: 90px;
+}
+
+.redes .gmail {
+  display: block;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  left: 800px;
+  margin-top: 90px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #141414;
+  margin: 0 auto;
+}
+
+footer {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+footer p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */

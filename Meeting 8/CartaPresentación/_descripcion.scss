@@ -1,0 +1,41 @@
+@import './variables';
+
+.descripcion{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: $color_caja;
+    margin-top: 40px;
+
+    .foto{
+        display:block;
+        position: absolute;
+        width: 200px;
+        height: 250px;
+        margin: 0 auto;
+        top: 25px;
+        left: 50px;
+    }
+
+
+    h2{
+        font-family: $font;
+        font-size: 50px;
+        text-align: right;
+        color: $color_titulos;
+        margin-bottom: 20px;
+        margin-right: 50px;
+    }
+
+    p{
+        display: inline-block;
+        position: absolute;
+        font-family: $font;
+        font-size: 22px;
+        text-align:justify;
+        color: $color_parrafo;
+        width: 900px;
+        right: 50px;
+    }
+}

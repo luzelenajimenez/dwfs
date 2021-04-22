@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+/*Selectores de tipo clase se copian asi: */
+/*se coloca el nombre que tiene la clase*/
+.class{
+
+}
+

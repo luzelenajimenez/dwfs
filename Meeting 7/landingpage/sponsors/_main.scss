@@ -1,0 +1,56 @@
+@import './variables';
+
+@mixin ma {
+    display: inline-block;
+    position: absolute;
+    font-family: $font;
+    
+}
+main{
+    display: inline-block;
+    position: relative;
+    width: $ancho / 2;
+    height: 800px;
+    top: 500px;
+    border: $bordes;
+
+    h1{
+        @include ma();
+        font-size:$font_size;
+        color: $color_titulos;
+        left:$ancho / 4;
+        
+    }
+
+}
+
+p{
+    @include ma();
+        text-align: justify;
+        font-size: 20px;
+        padding-right: 50px;
+        padding-top: 70px;
+        top: 0px;
+        margin-top: 30px;
+}
+
+.platinum, .gold, .silver{
+    display: inline-block;
+    position: relative;
+    font-family: $font;
+    color: $color_titulos;
+    top: 200px;
+    
+
+    .caja1, .caja2, .caja3{
+        display: inline-block;
+        position: relative;
+        background-color: $fondo_barra;
+        border: $bordes;
+        width: 100px;
+        height: 100px;
+        left: 0;
+        margin: 10px;
+
+    }
+}

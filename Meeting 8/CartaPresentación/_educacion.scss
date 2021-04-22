@@ -1,0 +1,200 @@
+@import './variables';
+
+@mixin edu {
+    position: relative;
+    font-family: $font;
+    text-align: center;
+    color: $color_titulos;
+    
+}
+
+@mixin logos {
+    display: block;
+    position: absolute;
+    background-color: $color_titulos;
+    width: 550px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+
+@mixin titulos {
+    display: inline-block;
+    position: absolute;
+    font-family: $font;
+    font-size: 30px;
+    font-weight: bold;
+    top: 20px;
+}
+
+.educacion{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    margin-top: 40px;
+    background-color: $color_caja;
+
+
+    h2{
+        @include edu();
+        top: 20px;
+        font-size: 50px;
+        
+    }
+
+    h3{
+        @include edu();
+        font-size: 40px;
+        top: 200px;
+
+    }
+
+    h4{
+        @include edu();
+        font-size: 40px;
+        top: 400px;
+    }
+
+}
+
+
+
+.itm{
+    @include logos();
+    left: 100px;
+    
+    
+    .itmfoto{
+        width: 200px;
+        height: 90px;
+        
+    }
+
+    .pitm{
+        @include titulos();
+        color: #043464;
+        left: 250px;
+        width: 100px;
+    }
+
+
+}
+
+.sena{
+    @include logos();
+    left: 700px;
+    
+    
+    .senafoto{
+        width: 100px;
+        height: 100px;
+        
+    }
+
+    .psena{
+        @include titulos();
+        color: #ff6b08;
+        left: 150px;
+        width: 400px;
+    }
+
+
+}
+
+.udemy{
+    @include logos();
+    left: 100px;
+    top: 350px;
+    
+    .udemyfoto{
+        width: 100px;
+        height: 100px;
+        
+    }
+
+    .pudemy{
+        display: inline-block;
+        position: absolute;
+        font-family: $font;
+        font-size: 30px;
+        font-weight: bold;
+        color: #ca3434;
+        left: 130px;
+        width: 450px;
+        
+    }
+
+
+}
+
+.inde{
+    @include logos();
+    left: 700px;
+    top: 350px;
+
+    .indefoto{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 10px;
+        
+    }
+
+    .pinde{
+        @include titulos();
+        color: #117e1f;
+        left: 150px;
+        width: 400px;
+        margin-top: 10px;
+    }
+
+
+}
+
+.otros{
+    display: block;
+    position: absolute;
+    width: 900px;
+    height: 150px;
+    border-radius: 10px;
+    top: 600px;
+    background-color: $color_titulos;
+    align-items: center;
+    margin-left: 200px;
+
+    .htmlfoto{
+        position: absolute;
+        width: 120px;
+        height: 110px;
+        left: 100px;
+        top: 20px;
+
+    }
+
+    .cssfoto{
+        position: absolute;
+        width: 120px;
+        height: 110px;
+        left: 300px;
+        top: 20px;
+    }
+
+    .matlabfoto{
+        position: absolute;
+        width: 150px;
+        height: 90px;
+        left: 500px;
+        top: 20px;
+    }
+
+    .pythonfoto{
+        position: absolute;
+        width: 150px;
+        height: 90px;
+        left: 700px;
+        top: 20px;
+    }
+}
+
+

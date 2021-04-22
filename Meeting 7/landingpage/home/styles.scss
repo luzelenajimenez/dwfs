@@ -1,0 +1,40 @@
+@import './main';
+@import './forms';
+@import './header';
+@import './variables';
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    background-color: $color_fondo;
+}
+
+
+footer{
+    display: inline-block;
+    position: relative;
+    bottom: 0;
+    width: $ancho;
+    border: $bordes;
+    margin-top: 30px;
+    top: 500px;
+
+    p{
+        font-family: $font;
+        font-size:20px;
+        font-weight: bold;
+        text-align: center;
+        color: $color_titulos;
+    }
+}
+
+
+
+
+
+
+
+

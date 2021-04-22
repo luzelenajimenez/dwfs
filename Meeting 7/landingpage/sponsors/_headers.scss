@@ -1,0 +1,50 @@
+@import './variables';
+
+header{
+    position: relative;
+    .imagenppal{
+        display:block;
+        position: absolute;
+        width: $ancho;
+        height: $alto;
+    
+    }
+
+}
+
+.secciones{
+    display:block;
+    position: absolute;
+    width: $ancho;
+    height: 41px;
+    background-color: $fondo_barra;
+    border:$bordes;
+    top: 450px;
+    
+
+    a{
+        display:inline-block;
+        line-height: 40px;
+        font-family: $font;
+        font-size: 25px;
+        text-decoration: none;
+        color:$color_titulos;
+        font-weight: bold;
+
+        &:hover{
+            color: $gray;
+        }
+        
+    }
+}
+
+
+.home, .oradores, .comollegar, .sponsors{
+    display:inline-block;
+    line-height: 30px;
+    left: auto;
+    padding-left: $padding;
+    padding-right: $padding;
+
+}
+

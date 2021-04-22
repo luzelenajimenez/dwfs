@@ -1,0 +1,56 @@
+@import './variables';
+
+.formulario{
+    display: inline-block;
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    border: $bordes;
+    left: 100%;
+    top: 0px;
+    margin-left: 40px;
+    
+}
+
+h2{
+    margin-left: 80px;
+}
+form{
+    padding: 15px;
+    max-width: 350px;
+    margin: 0 auto;
+    
+}
+
+form input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+button{
+    display: inline-block;
+    position:absolute;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid $black;
+    font-weight: bold;
+    font-size: 15px;
+    left: 300px;
+    top: 400px;
+    cursor:pointer;
+
+    &:hover{
+        background-color: $fondo_barra;
+        color: $color_titulos;
+        border: 2px dotted $color_titulos;
+
+    }
+}
+
+
+
+
+
+

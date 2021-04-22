@@ -1,0 +1,26 @@
+/*Estilos para el body*/
+body{
+    background-color: black;
+    position: relative;
+}
+/*Estilos y posicionamiento para la caja */
+.caja{
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(152deg,blue 40%, rgb(127, 62, 202) 60%);
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    top: 250px;
+    left:550px;
+    
+}
+
+/*Propiedades para rotar la caja cuando pasamos el mouse por encima de ella*/
+.caja:hover{
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+

@@ -1,0 +1,287 @@
+/*Selector universal*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    
+}
+
+/* Fondo de imagen de la banda */
+body{
+    background-image:url(./img/mana5.jpg);
+    background-repeat:repeat;
+    background-position-y:8cm;
+    background-position-x: -8cm;
+    position: relative;
+    
+}
+
+/*Ubicación de la imagen principal al inicio de la página*/
+header img{
+    display: inline-block;
+    position: absolute;
+    left: 480px;
+    opacity: 0.9;
+}
+/*Estilos y ubiación para el titulo de integrantes*/
+.integrantes{
+    font-family:Verdana, 'Geneva', Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #f3bc73;
+    background-color:black;
+    border-radius: 10px;
+    opacity: 0.7;
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top: 430px;
+}
+/* Quitar viñetas a la lista de integrantes*/
+ul{
+  list-style: none;
+}
+/*Estilos para la lista de integrantes*/
+.lista{
+  display: inline-block;
+  position: absolute;
+  border: gray outset 2px;
+  left: 550px;
+  top: 480px;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align:justify;
+  color:black;
+  font-weight: bold;
+  text-transform:capitalize; 
+}
+
+
+article{
+  position: relative;
+}
+
+/*Estilos y ubiación para el titulo de descripción*/
+.descripcion{
+  font-family:Verdana, 'Geneva', Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #f3bc73;
+  background-color:black;
+  border-radius: 10px;
+  opacity: 0.7;
+  display: inline-block;
+  position: absolute;
+  left: 600px;
+  top: 650px;
+}
+/*Estilo para la descripción de la banda*/
+.parrafo{
+  display: inline-block;
+  position: absolute;
+  width: 1000px;
+  height: 100px;
+  left: 200px;
+  top: 700px;
+  background-image: url(./mana6.jpg);
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  color: black;
+}
+
+
+.discos{
+  display: inline-block;
+  position: relative;
+
+}
+/*Estilos y ubiación para el titulo de discografia*/
+
+.discografia{
+  font-family:Verdana, 'Geneva', Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #f3bc73;
+  background-color:black;
+  border-radius: 10px;
+  opacity: 0.7;
+  display: inline-block;
+  position: absolute;
+  left: 600px;
+  top: 850px;
+}
+/*Estilos y posicionamiento para cada uno de los albumes de la banda*/
+.album1{
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 900px;
+  width: 200px;
+  height: 200px;
+}
+.album2{
+  display: inline-block;
+  position: absolute;
+  left: 240px;
+  top: 900px;
+  width: 200px;
+  height: 200px;
+}
+
+.album3{
+  display: inline-block;
+  position: absolute;
+  left: 460px;
+  top: 900px;
+  width: 200px;
+  height: 200px;
+}
+
+.album4{
+  display: inline-block;
+  position: absolute;
+  left: 680px;
+  top: 900px;
+  width: 200px;
+  height: 200px;
+}
+
+.album5{
+  display: inline-block;
+  position: absolute;
+  left: 900px;
+  top: 900px;
+  width: 200px;
+  height: 200px;
+}
+
+.album6{
+  display: inline-block;
+  position: absolute;
+  left: 1120px;
+  top: 900px;
+  width: 200px;
+  height: 200px;
+}
+
+/*Estilos y ubiación para el titulo de galería*/
+
+.galeria{
+  font-family:Verdana, 'Geneva', Tahoma, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #f3bc73;
+  background-color:black;
+  border-radius: 10px;
+  opacity: 0.7;
+  display: inline-block;
+  position: absolute;
+  left: 525px;
+  top: 1180px;
+}
+
+/*Estilos y posicionamiento para cada una de las imagenes de la banda*/
+
+.imagen1{
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 1250px;
+  width: 250px;
+  height: 200px;
+}
+
+.imagen2{
+  display: inline-block;
+  position: absolute;
+  left: 370px;
+  top: 1250px;
+  width: 250px;
+  height: 200px;
+}
+
+.imagen3{
+  display: inline-block;
+  position: absolute;
+  left: 720px;
+  top: 1250px;
+  width: 250px;
+  height: 200px;
+}
+
+.imagen4{
+  display: inline-block;
+  position: absolute;
+  left: 1070px;
+  top: 1250px;
+  width: 250px;
+  height: 200px;
+}
+
+/*Estilos y propiedades para el enlace directo a la página de la banda*/
+a {
+
+  font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  left: 450px;
+  top: 1500px;
+  border: black outset 3px;
+}
+/*Color del enlace*/
+a:link {
+  color: #0d0e0d;
+}
+/*Color cuando ha sido visitado*/
+a:visited {
+  color: #43444b;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #ce5767;
+}
+/*Estilos cuando pasamos el mouse por encima del encale*/
+a:hover {
+  border-bottom: 1px solid;
+  background: #b33147;
+}
+
+a:active {
+  background: #ced3ca;
+  color: #f3bc73;
+}
+
+/*Estilos para el enlace de spotify*/
+iframe{
+  display: inline-block;
+  position: absolute;
+  background-color: yellowgreen;
+  width: 100%;
+  height: 300px;
+  left: 0px;
+  top: 1600px;
+}
+
+/*Ubicación del Copyrigth*/
+footer p{
+  display: inline;
+  position: absolute;
+  left: 690px;
+  top: 1950px;
+  font-size: 20px;
+  font-weight: bold;
+
+}

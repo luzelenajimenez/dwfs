@@ -1,0 +1,40 @@
+@import './variables';
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    background-color: $fondo;
+}
+
+//Mixins//
+@mixin screen {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+}
+
+//Estilos cuando sea una pantalla de mas de 800px//
+@media screen and (min-width:$vp) {
+    .caja1, .caja2{
+        @include screen();
+        left: 0;
+        width: $caja;
+        height: $caja;
+        background: $fondo_cajas;
+        
+    }
+}
+//Estilos cuando sea una pantalla menos de 800px//
+@media  screen and (max-width:$vp) {
+
+    .caja1, .caja2{
+        @include screen();
+        width: $caja+200px;
+        height: $caja+200px;
+        background: $fondo_cajas1;
+        
+    }
+    
+}

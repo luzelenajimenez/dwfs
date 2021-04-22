@@ -1,0 +1,34 @@
+@import './variables';
+
+@mixin ma {
+    display: inline-block;
+    position: absolute;
+    font-family: $font;
+    
+}
+main{
+    display: inline-block;
+    position: relative;
+    width: $ancho / 2;
+    
+
+    h1{
+        @include ma();
+        font-size:$font_size;
+        color: $color_titulos;
+        left:$ancho / 4;
+        
+    }
+
+    p{
+        @include ma();
+        text-align: justify;
+        font-style: oblique;
+        padding-right: 50px;
+        padding-top: 70px;
+            
+        }
+        
+
+
+}

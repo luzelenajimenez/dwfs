@@ -1,0 +1,33 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  background-color: black;
+}
+
+@media screen and (min-width: 800px) {
+  .caja1, .caja2 {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #ad1283;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .caja1, .caja2 {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    background: #0ba067;
+  }
+}
+/*# sourceMappingURL=challenge.css.map */

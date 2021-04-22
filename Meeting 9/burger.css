@@ -1,0 +1,59 @@
+input#abrir-cerrar {
+  visibility: hidden;
+  position: absolute;
+  top: -9999px;
+}
+
+.toggle-button {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  position: relative;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.toggle-button:before, .toggle-button:after {
+  position: absolute;
+  display: block;
+  content: " ";
+  width: calc(100% / 2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  left: calc(100% / 4);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.toggle-button:before {
+  top: calc(100% / 4);
+  height: calc(100% / 4);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+.toggle-button:after {
+  height: 1px;
+  background-color: black;
+  bottom: calc(100% / 4);
+}
+
+input#abrir-cerrar:checked + .toggle-button:before, input#abrir-cerrar:checked + .toggle-button:after {
+  top: calc(100% / 2);
+  height: 1px;
+  border-bottom: 0;
+}
+
+input#abrir-cerrar:checked + .toggle-button:before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+input#abrir-cerrar:checked + .toggle-button:after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+/*# sourceMappingURL=burger.css.map */

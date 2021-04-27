@@ -19,10 +19,6 @@ body {
     display: -ms-flexbox;
     display: flex;
     margin: 20px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
     width: 200px;
     height: 200px;
     background: #ad1283;
@@ -35,10 +31,6 @@ body {
     display: -ms-flexbox;
     display: flex;
     margin: 20px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     width: 400px;
     height: 400px;
     background: #0ba067;

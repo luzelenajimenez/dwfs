@@ -1,0 +1,58 @@
+@import './variables';
+
+@mixin parrafo {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-family: $font;
+}
+
+@mixin sections {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    
+}
+
+@mixin img {
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
+    
+}
+
+@mixin article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+@mixin h4 {
+    position: absolute;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+    font-family: $font;
+    font-size: 12px; 
+}
+
+@mixin h5 {
+    color: $color_texto;
+    position: relative;
+    font-family:sans-serif;
+}
+
+@mixin p {
+    position: absolute;
+    text-align: justify;
+    font-weight: bold;
+    text-decoration: none;
+    color: $black;
+    font-family: $font;
+    font-size: 35px; 
+}

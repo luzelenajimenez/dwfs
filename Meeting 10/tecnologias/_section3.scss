@@ -1,38 +1,33 @@
 @import './variables';
+@import './mixins';
+
 
 .section3{
-    padding: 20px;
+    @include sections();
     width: 25%;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-flow: row wrap;
     margin-top: 30px;
    
 
     article{
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
+        @include article();
 
         img{
             margin-right: 20px;
             width: 100%;
             height: auto;
-           
+
+            &:hover{
+                transform: scale(1,1.1);
+                cursor: pointer;
+            }
         }
     }
 
     p{
-        
-        position: absolute;
+        @include parrafo();
         width: 250px;
-        text-align: center;
-        font-weight: bold;
         left: 78%;
-        text-decoration: none;
-        color: white;
-        font-family: $font;
         font-size: 20px;
 
         &:hover{

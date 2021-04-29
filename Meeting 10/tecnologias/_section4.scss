@@ -1,183 +1,58 @@
 @import './variables';
+@import './mixins';
 
 .section4{
-    padding: 50px;
+    padding: 20px;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    margin-top: 30px;
 
- 
-}
+    article {
+        display: flex;
+        margin-bottom: 20px;
+        
+        img{
+            display: block;
+            margin-right: 20px;
+            width: 40%;
+            height: auto;
 
-.article1{
-display: flex;
-margin-bottom: 20px;
-
-img{
-    align-content: center;
-    margin-right: 20px;
-    width: 40%;
-    height: auto;
-    
-   
-}
-p{
-    position: absolute;
-    width: 700px;
-    text-align: justify;
-    font-weight: bold;
-    top: 670px;
-    left:45%;
-    text-decoration: none;
-    color: $black;
-    font-family: $font;
-    font-size: 35px; 
-    
-    &:hover{
-        color: $red;
+            &:hover{
+                transform: scale(1,1.1);
+                cursor: pointer;
+            }
+        }
     }
-}
-h4{
-    position: absolute;
-    width: 500px;
-    font-style: oblique;
-    font-weight: bold;
-    top: 730px;
-    left:610px;
-    text-decoration: none;
-    color: gray;
-    font-family: $font;
-    font-size: 12px;
-    &:hover{
-        color: $red;
+
+    a{
+        text-decoration: none;
     }
-   
 
-}
+    h4{
+        @include h4();
+        margin-top: 120px;
 
-h5{
-   color: $color_texto;
-   position: relative;
-   width: 500px;
-   font-family:sans-serif;
-   top: 120px;
-   left: 55px;
-}
-
-    
-}
-
-.article2{
-display: flex;
-margin-bottom: 20px;
-
-img{
-    align-content: center;
-    margin-right: 20px;
-    width: 40%;
-    height: auto;
-    
-   
-}
-p{
-    position: absolute;
-    width: 600px;
-    text-align: justify;
-    font-weight: bold;
-    top: 970px;
-    left:45%;
-    text-decoration: none;
-    color: $black;
-    font-family: $font;
-    font-size: 35px; 
-    &:hover{
-        color: $red;
+        &:hover{
+            color: $red;
+        }
     }
-}
-h4{
-    position: absolute;
-    width: 500px;
-    font-style: oblique;
-    font-weight: bold;
-    top: 1080px;
-    left:610px;
-    text-decoration: none;
-    color: gray;
-    font-family: $font;
-    font-size: 12px;
-    &:hover{
-        color: $red;
+
+    p{
+        @include p();
+        width: 600px;
+        margin-top: 30px;
+
+        &:hover{
+            color: $red;
+        }
     }
-   
 
-}
+    h5{
+        @include h5();
+        width: 600px;
+        margin-top: 150px;
+        font-size: 15px;
+        color: rgb(70, 67, 67);
 
-h5{
-   color: $color_texto;
-   position: relative;
-   width: 500px;
-   font-family:sans-serif;
-   top: 170px;
-   left: 55px;
-}
-
-    
-}
-
-.article3{
-display: flex;
-margin-bottom: 20px;
-
-img{
-    align-content: center;
-    margin-right: 20px;
-    width: 41%;
-    height: auto;
-    
-   
-}
-p{
-    position: absolute;
-    width: 600px;
-    text-align: justify;
-    font-weight: bold;
-    top: 1260px;
-    left:45%;
-    text-decoration: none;
-    color: $black;
-    font-family: $font;
-    font-size: 35px; 
-    &:hover{
-        color: $red;
     }
-}
-h4{
-    position: absolute;
-    width: 500px;
-    font-style: oblique;
-    font-weight: bold;
-    top: 1370px;
-    left:610px;
-    text-decoration: none;
-    color: gray;
-    font-family: $font;
-    font-size: 12px;
-    &:hover{
-        color: $red;
-    }
-   
-
-}
-
-h5{
-   color: $color_texto;
-   position: relative;
-   width: 500px;
-   font-family:sans-serif;
-   top: 170px;
-   left: 55px;
-}
-
-    
 }

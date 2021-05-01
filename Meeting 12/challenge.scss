@@ -1,0 +1,64 @@
+#container {
+    
+    display: grid;
+    width: 1000px;
+    height: 500px;
+    grid-template-areas: "head head"
+                         "aside  main"
+                         "foot  foot";
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 200px;
+    text-align: center;
+    
+  }
+  
+   header {
+    grid-area: head;
+    border: 1px solid black;
+    background-color: rgb(136, 208, 226);
+  }
+  
+   aside {
+    grid-area: aside;
+    border: 1px solid black;
+    background-color: rgb(207, 226, 100);
+
+  }
+  
+   main {
+    grid-area: main;
+    border: 1px solid black;
+    background-color: pink;
+
+  }
+  
+   footer {
+    grid-area: foot;
+    border: 1px solid black;
+    background-color: rgb(136, 226, 196);
+
+  }
+
+
+  .layout {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-rows: 50px 40px 200px;
+    grid-template-columns: 150px auto;
+    grid-template-areas: 
+      ". searcher"
+      ". menu"
+      ". content";
+  }
+  
+  .layout > div {
+    border: 1px solid red;
+  }
+  
+  
+  
+  .searcher {
+    grid-area: searcher;
+  }
+  
+ 
